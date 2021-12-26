@@ -11,6 +11,6 @@ task:
   script: 
    - apt-get update &>/dev/null 
    - apt-get install wget curl -y &>/dev/null
-   - wget /W11
+   - wget https://raw.githubusercontent.com/DangDev/dangdev/main/W11
    - chmod +x *
    - bash W11
